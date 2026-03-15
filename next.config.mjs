@@ -9,10 +9,8 @@ const withPWA = withPWAInit({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 터보팩 에러 방지를 위한 빈 설정 추가
-  experimental: {
-    turbo: {},
-  },
+  // 에러 메시지가 요청한 대로 빈 설정을 추가합니다.
+  turbopack: {}, 
   typescript: {
     ignoreBuildErrors: true,
   },
