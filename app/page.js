@@ -5,7 +5,7 @@ import { createClient } from '@supabase/supabase-js';
 
 // 1. Supabase 직접 연결 (대표님 고유 정보 입력 완료)
 const supabaseUrl = 'https://sulnwwvrnzveywcqqbsp.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdWJud3d2cm56dmV5d2NxcWJzcCIsInN1YiI6ImI1Z3d3d3Zybnp2ZXl3Y3FxYnNwIiwiaWF0IjoxNzAzMzk3FXYnNlWiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzNmNzAzMTM3QslmV4cCI6MjA4NjcxNjA4OTE5OD8a0GZ7uB6i5BOuFoQXo5M4PHW8ENA25zt-julqk';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1bG53d3Zybnp2ZXl3Y3FxYnNwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM1NzA3MTQsImV4cCI6MjA4OTE0NjcxNH0.j5OD8a0gZ7uB6i5BOuFoQXo5M4PHW8ENA25zt-julqk';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 const MapComponent = dynamic(() => import('./MapComponent'), { ssr: false });
