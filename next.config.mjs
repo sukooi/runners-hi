@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
-    ignoreBuildErrors: true, // 타입 에러가 있어도 배포 진행
+    ignoreBuildErrors: true, // 타입 에러가 있어도 무시
   },
   eslint: {
-    ignoreDuringBuilds: true, // 문법 에러가 있어도 배포 진행
+    ignoreDuringBuilds: true, // 문법 에ER가 있어도 무시
   },
 };
 
